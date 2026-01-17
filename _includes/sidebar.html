@@ -21,15 +21,15 @@
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
   {% endif %}
-  <div class="sidebar-section">
-  <h3>Menu</h3>
-  <ul style="list-style: none; padding-left: 0;">
-    <li><a href="https://yourusername.github.io/">Home</a></li>
-    <li><a href="https://yourusername.github.io/publications/">Publications</a></li>
-    <li><a href="https://yourusername.github.io/talks/">Talks</a></li>
-    <li><a href="https://yourusername.github.io/teaching/">Teaching</a></li>
-    <li><a href="https://yourusername.github.io/cv/">CV</a></li>
+  <nav class="nav__list">
+  <h3 class="nav__title" style="padding-left: 0;">Menu</h3>
+  <ul>
+    <li><a href="/"><span class="nav__sub-title">Home</span></a></li>
+    <li><a href="/publications/"><span class="nav__sub-title">Publications</span></a></li>
+    <li><a href="/talks/"><span class="nav__sub-title">Talks</span></a></li>
+    <li><a href="/teaching/"><span class="nav__sub-title">Teaching</span></a></li>
+    <li><a href="/cv/"><span class="nav__sub-title">CV</span></a></li>
   </ul>
-  </div>
+</nav>
   </div>
 {% endif %}
